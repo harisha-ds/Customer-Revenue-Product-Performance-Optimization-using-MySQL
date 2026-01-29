@@ -13,11 +13,11 @@ Difficulty identifying top-performing products and suppliers
 Management needs SQL-based insights to guide strategic decisions.         
 
 Business objectives:   
-Identify top revenue-generating products and categories   
-Evaluate the effectiveness of discounts on sales and revenue    
-Analyze customer loyalty and repeat purchase behavior    
-Understand regional and payment method performance    
-Rank products and customers using advanced SQL techniques  
+-- Identify top revenue-generating products and categories   
+-- Evaluate the effectiveness of discounts on sales and revenue    
+-- Analyze customer loyalty and repeat purchase behavior    
+-- Understand regional and payment method performance    
+-- Rank products and customers using advanced SQL techniques  
 
 Domain: 
 E-Commerce / Retail Analytics   
@@ -68,25 +68,29 @@ Window functions (RANK, ROW_NUMBER, SUM() OVER)
 Views for reusable analytics 
 Date-based analysis & trends   
 
-Business Questions Answered:    
+Business Questions Answered: 
+
 Revenue & Product Analysis   
 Total revenue generated   
 Revenue by product category   
 Top-selling products by quantity   
 Top-performing regions by revenue   
 Revenue by payment method   
+
 Customer & Behavior Analysis   
 Number of unique customers   
 Repeat customer identification   
 Average order value by loyalty tier   
 Revenue per customer by loyalty tier   
-Revenue contribution from repeat customers    
+Revenue contribution from repeat customers   
+
 Discounts, Operations & Conditional Analysis   
 Discounted vs non-discounted revenue comparison   
 Quantity differences with discounts   
 Regional response to discounts   
 Revenue impact of delivery status   
-Cancellation rates by payment method   
+Cancellation rates by payment method  
+
 Advanced Product Performance      
 Products with above-average revenue    
 Products contributing to top 20% of revenue (Pareto analysis)   
@@ -97,16 +101,19 @@ Products performing well in some regions but poorly in others
 Advanced SQL Analysis             
 Rank products within each category    
 Identify top 3 products per category    
-Cumulative revenue contribution   
+Cumulative revenue contribution 
+
 Customer-level analysis:   
 Total revenue per customer    
 Customer ranking by spending    
-Identify customers spending above their loyalty-tier average   
+Identify customers spending above their loyalty-tier average  
+
 Data Modeling & Reusability   
 Created a final analytics view combining sales, customer, and product data    
 Derived:              
 Monthly revenue trends     
-Category-wise growth         
+Category-wise growth        
+
 Seasonality and demand spikes    
 Built reusable queries for:     
 Monthly top customer monitoring    
